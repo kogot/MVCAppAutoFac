@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{18C2E030-B35C-4027-BABF-B925AE8DA9CB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVCAppAutoFac.DependencyResolver/MyClass.cs">
+    <Files>
+      <File FileName="MVCAppAutoFac/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="MVCAppAutoFac.BL/MyClass.cs" Line="12" Column="3" />
+      <File FileName="MVCAppAutoFac.DependencyResolver/MyClass.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MVCAppAutoFac PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
