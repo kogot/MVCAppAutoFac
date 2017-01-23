@@ -7,13 +7,22 @@ using System.Web.Mvc.Ajax;
 
 namespace MVCAppAutoFac.Controllers
 {
-	public class HomeController : Controller
+    using MVCAppAutoFac.BL;
+
+    public class HomeController : Controller
 	{
-		public ActionResult Index()
+	    private readonly IMain _main;
+
+	    public HomeController(IMain main)
+	    {
+	        _main = main;
+	    }
+
+	    public ActionResult Index()
 		{
 			var mvcName = typeof(Controller).Assembly.GetName();
 			var isMono = Type.GetType("Mono.Runtime") != null;
-
+		    ViewBag.Name = _main.GetName();
 			ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
 			ViewData["Runtime"] = isMono ? "Mono" : ".NET";
 
