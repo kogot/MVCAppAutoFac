@@ -3,7 +3,7 @@
     <Files>
       <File FileName="MVCAppAutoFac/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="MVCAppAutoFac.BL/MyClass.cs" Line="12" Column="3" />
-      <File FileName="MVCAppAutoFac.DependencyResolver/MyClass.cs" Line="1" Column="1" />
+      <File FileName="MVCAppAutoFac.DependencyResolver/MyClass.cs" Line="11" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

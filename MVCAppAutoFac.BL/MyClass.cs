@@ -6,5 +6,8 @@ namespace MVCAppAutoFac.BL
 		public MyClass()
 		{
 		}
-	}
+
+		public string GetName(){
+			return "Alex";
+		}
 }
